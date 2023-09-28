@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&family=Quicksand&family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+section {
+    padding: 8px;
+}
+
+.container {
+
+    background: black;
+
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+}
+
+.one-st {
+    /* background-color: rgb(29, 29, 29); */
+    height: 720px;
+    width: 20%;
+position: sticky;
+top: 0;
+}
+
+.hm-se {
+    background-color: #121212;
+    padding: 8px 12px;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+
+
+.hm-se-text p {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px 12px;
+    gap: 20px;
+    height: 40px;
+}
+
+.library {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.library .logo-name {
+    padding: 8px 12px;
+
+
+}
+
+.library .logo-name-two {
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name p {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.library .create {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #242424;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+.text1 p {
+    padding: 0px 12px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.text2 p {
+    padding: 12px;
+    font-size: 15px;
+    color: #ffff;
+}
+
+.btn-class {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    color: #242424;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.links {
+    padding: 0px 12px;
+
+}
+
+.links .links2 {
+    padding: 10px 12px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.links2 p {
+    font-size: 13px;
+    color: #9a9494;
+}
+
+.lang {
+    padding: 10px 12px;
+    display: flex;
+}
+
+.btn-lang {
+
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #ffff;
+    gap: 7px;
+    border: 1px solid white;
+
+}
+
+.two-st {
+    background-color: #121212;
+    border-radius: 10px;
+    height: auto;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+header {
+    height: 60px;
+    width: auto;
+    background-color: #121212;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 166px 126px rgb(36, 36, 36);
+}
+
+.head {
+    padding: 7px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.arrow{
+    display: flex;
+    gap: 10px;
+}
+
+.arrow2{
+    background-color: #242424;
+    display: inline-block;
+    padding: 8px 13px;
+    border-radius: 25px;
+}
+.signuplinks{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+
+.head a {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(80, 80, 80);
+}
+
+.btnlogin {
+    display: inline-block;
+    background-color: #ffff;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-main-div h4 {
+    color: #ffff;
+    padding: 10px 25px;
+    font-size: 30px;
+}
+
+.cardname{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardname p{
+    color: #656565;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.card-div {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.card {
+    background-color: #181818;
+    border-radius: 10px;
+}
+
+.card-cont {
+    padding: 12px;
+}
+
+.card-cont h6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-cont p {
+    color: #9a9494;
+}
+
+.card-cont img {
+    border-radius: 10px;
+    height: 206px;
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,1);
+
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: #242424;
+}
